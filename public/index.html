@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RANKED LOG</title>
+    <script src="rankedlog.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body onload="getDataAndRenderLogEntries()">
+
+    <h1>Ranked Log</h1>
+    <div class="header">
+        <div class="new-entry">
+            <div>
+                Role
+                <input id="role">
+            </div>
+            <div>
+                Champion
+                <input id="champion">
+            </div>
+            <div>
+                Victory
+                <input type="checkbox" id="wl">
+            </div>
+        </div>
+        <div>
+            Notes
+            <textarea id="notes" class="notes"></textarea>
+        </div>
+        <button onclick="saveNewEntry()">new entry</button>
+    </div>
+    <div id="log" class="log">
+    </div>
+    <div class="goals">
+        <p>Goals</p>
+        <textarea></textarea>
+    </div>
+    <div class="stats">
+        <p>Stats</p>
+    </div>
+    <script src="rankedlog.js"></script>
+</body>
+
+</html>

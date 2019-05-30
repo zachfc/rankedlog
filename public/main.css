@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.win {
+    background: lightgreen;
+}
+
+.lose {
+    background: red;
+}
+
+.text {
+    width: 80%;
+    float: right;
+}
+
+
+.new-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100%;
+    flex-wrap: nowrap;
+    padding-right: 5px;
+
+}
+
+input {
+    width: 50px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.notes {
+    width: 30%;
+    height: 100%;
+    resize: none;
+    border: 1px solid black;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
